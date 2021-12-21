@@ -1,3 +1,4 @@
+ARG BUILDPLATFORM=linux/amd64
 FROM --platform=$BUILDPLATFORM openjdk:8-jre-alpine AS builder
 
 RUN apk update && apk add gradle git && rm -rf /var/lib/apk/* /var/cache/apk/*
