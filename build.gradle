@@ -144,7 +144,7 @@ dependencies {
     api 'org.xerial:sqlite-jdbc:3.39.3.0'
 
     // PostgreSQL
-    api 'org.postgresql:postgresql:42.5.0'
+    api 'org.postgresql:postgresql:42.5.4'
 
     // MariaDB/MySQL
     api 'org.mariadb.jdbc:mariadb-java-client:3.0.8'
